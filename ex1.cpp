@@ -3,11 +3,8 @@
 int main(){
     int rect1_x, rect1_y, rect1_l, rect1_h, rect2_x, rect2_y, rect2_l, rect2_h;
     int output_l = 0, output_h = 0, output_area;
-    std::cin >> rect1_x >> rect1_y;
-    std::cin >> rect1_l >> rect1_h;
-
-    std::cin >> rect2_x >> rect2_y;
-    std::cin >> rect2_l >> rect2_h;
+    scanf("%d %d %d %d", &rect1_x, &rect1_y, &rect1_l, &rect1_h);
+    scanf("%d %d %d %d", &rect2_x, &rect2_y, &rect2_l, &rect2_h);
 
     //check for x intersection
     //
